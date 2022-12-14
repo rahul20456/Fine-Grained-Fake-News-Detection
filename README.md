@@ -25,12 +25,17 @@ setting, we used the TF-IDF vectorizer to vectorize the corpus. In the second se
 a more robust model. We used the Sentence Transformer, to convert the corpus into vectors.
 
 
+
 experimental results 
+
+
 
 ![image](https://user-images.githubusercontent.com/88978808/207588896-224520c8-594e-4383-b76d-a010fcd5fddb.png)
 
 
 analysis 
+
+
 We observed that the F1 macro score for the machine learning models were less when we used  
 only the attribute – ‘statements. However, when we added the meta-data: ‘subject’, ‘speaker’, and
 the ‘party affiliation’, the F1 score increased. Thus,the model performs better on 
