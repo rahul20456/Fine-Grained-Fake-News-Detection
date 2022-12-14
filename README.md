@@ -5,7 +5,7 @@ truthfulness rating of the statement -- pants-fire, false, barely true, half-tru
 and true. This is a multi-label classification task.
 
 
-Methodology
+ # Methodology
 
 We preprocessed the data we needed, both training as well as testing, in the following manner: 
 Lowercasing the text and any other metadata if we used and stemming using nltk library routine, 
@@ -26,14 +26,14 @@ a more robust model. We used the Sentence Transformer, to convert the corpus int
 
 
 
-experimental results 
+# experimental results 
 
 
 
 ![image](https://user-images.githubusercontent.com/88978808/207588896-224520c8-594e-4383-b76d-a010fcd5fddb.png)
 
 
-analysis 
+#  analysis 
 
 
 We observed that the F1 macro score for the machine learning models were less when we used  
